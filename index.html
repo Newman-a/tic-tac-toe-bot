@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Juego de tic tac toe, juego de tres en raya">
+    <meta name="keywords" content="tic tac toe, tres en raya">
+    <meta name="author" content="Newman_ga">
+    <link rel="icon" href="icon/icon.png" type="image/x-icon">
+    <link rel=" stylesheet" href="css/style.css">
+    <title>Tic tac toe</title>
+</head>
+
+<body>
+
+    <div class="game">
+
+        <article data-id="game__message">
+            <h2 class="name">El turno es para <span class="game__turn"></span></h2>
+        </article>
+
+        <section class="game__board">
+
+        </section>
+
+        <!-- <a class="ig" href="https://www.instagram.com/newman_ga/" target="_blank">
+                <img src="square-instagram.svg" alt="" class="instagram fa-fade">
+                Newman_ga</a> -->
+    </div>
+
+    <section class="play play--mostrar">
+        <div class="play__show">
+            <h1 class="focus-in-expand">Tic Tac Toe</h1>
+            <button class="play__button">Comenzar</button>
+        </div>
+    </section>
+
+    <section class="endgame">
+        <div class="endgame__show">
+            <h1 class="endgame__result"></h1>
+            <p>¿Quieres volver a jugar?</p>
+
+            <button class="endgame__button">
+                <div class="lds-dual-ring"></div>
+                Reiniciar el juego
+            </button>
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+    <script src="https://kit.fontawesome.com/15f4d8902c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
