@@ -187,7 +187,7 @@ function drawShape(element, newClass) {
 
 function changeTurn() {
     isTurnX = !isTurnX;
-    messageTurn.textContent = isTurnX ? `X` : `O`;
+    messageTurn.textContent = isTurnX ? `X` : `O (BOT)`;
 }
 
 function checkWinner(currentPlayer) {
@@ -221,7 +221,7 @@ function showEndgame(winner) {
     endGame.classList.add('show');
 
     if (winner) {
-        endGameResult.textContent = `¡${isTurnX ? "X" : "O"} ha ganado el juego!😁👌`;
+        endGameResult.textContent = `¡${isTurnX ? "X" : "O (BOT)"} ha ganado el juego!😁👌`;
     } else {
         endGameResult.textContent = "¡Empate!";
     }
